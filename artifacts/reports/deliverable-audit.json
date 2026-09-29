@@ -1,0 +1,88 @@
+{
+  "inspectedAt": "2026-09-28T08:46:59.527Z",
+  "buildId": "2HSDVEtvoSSfuBsLih6jM",
+  "independentManifestAndLockAgree": true,
+  "routeFiles": [
+    "/",
+    "/product",
+    "/features",
+    "/use-cases",
+    "/integrations",
+    "/pricing",
+    "/login",
+    "/signup",
+    "/demo-request",
+    "/app",
+    "/app/documents",
+    "/app/knowledge",
+    "/app/chat",
+    "/app/workflows",
+    "/app/analytics",
+    "/app/team",
+    "/app/settings"
+  ],
+  "caseStudyTopics": [
+    "Problem",
+    "Product concept",
+    "Target users",
+    "Business model concept",
+    "Marketing website strategy",
+    "Dashboard architecture",
+    "Information architecture",
+    "Design system",
+    "AI interaction design",
+    "Responsive approach",
+    "Technology",
+    "What This Project Demonstrates"
+  ],
+  "screenshots": [
+    {
+      "name": "saas-hero",
+      "width": 1440,
+      "height": 900,
+      "bytes": 158468
+    },
+    {
+      "name": "product-section",
+      "width": 1440,
+      "height": 900,
+      "bytes": 76898
+    },
+    {
+      "name": "dashboard",
+      "width": 1440,
+      "height": 900,
+      "bytes": 124124
+    },
+    {
+      "name": "ai-chat",
+      "width": 1440,
+      "height": 900,
+      "bytes": 123435
+    },
+    {
+      "name": "workflow-builder",
+      "width": 1440,
+      "height": 1752,
+      "bytes": 185433
+    },
+    {
+      "name": "mobile-website",
+      "width": 390,
+      "height": 6043,
+      "bytes": 330050
+    }
+  ],
+  "accessibility": {
+    "checked": 17,
+    "failures": []
+  },
+  "commandEvidence": [
+    "build.log",
+    "lint.log",
+    "typecheck.log",
+    "unit-tests.log",
+    "browser-tests.log",
+    "performance.log"
+  ]
+}

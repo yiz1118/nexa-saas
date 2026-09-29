@@ -1,0 +1,113 @@
+{
+  "samples": 24,
+  "differences": [
+    {
+      "route": "/",
+      "width": 768,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "x",
+      "before": 640.171875,
+      "after": 639.375
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "width",
+      "before": 85.828125,
+      "after": 86.625
+    },
+    {
+      "route": "/product",
+      "width": 768,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "x",
+      "before": 553.171875,
+      "after": 552.375
+    },
+    {
+      "route": "/product",
+      "width": 768,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "width",
+      "before": 85.828125,
+      "after": 86.625
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "x",
+      "before": 652.171875,
+      "after": 651.375
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "width",
+      "before": 85.828125,
+      "after": 86.625
+    },
+    {
+      "route": "/product",
+      "width": 1024,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "x",
+      "before": 887.171875,
+      "after": 886.375
+    },
+    {
+      "route": "/product",
+      "width": 1024,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "width",
+      "before": 85.828125,
+      "after": 86.625
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "x",
+      "before": 1240.171875,
+      "after": 1239.375
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "width",
+      "before": 85.828125,
+      "after": 86.625
+    },
+    {
+      "route": "/product",
+      "width": 1440,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "x",
+      "before": 1245.171875,
+      "after": 1244.375
+    },
+    {
+      "route": "/product",
+      "width": 1440,
+      "selector": ".preview-upload",
+      "item": 0,
+      "key": "width",
+      "before": 85.828125,
+      "after": 86.625
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "answers": [
+    {
+      "question": "What is blocking the Atlas release?",
+      "citations": 1,
+      "passagesExist": true
+    },
+    {
+      "question": "What did interviews say about source references?",
+      "citations": 1,
+      "passagesExist": true
+    },
+    {
+      "question": "How are PDF files handled in this demo?",
+      "citations": 1,
+      "passagesExist": true
+    }
+  ],
+  "workflows": [
+    {
+      "id": "atlas-handover",
+      "output": {
+        "summary": "Project Atlas is preparing for an October 15 release. Accessibility review and support readiness remain key release tasks.",
+        "actions": [
+          "Maya: confirm keyboard navigation in the invitation dialog",
+          "Document empty states",
+          "Jonah: publish the support runbook"
+        ]
+      }
+    },
+    {
+      "id": "launch-checklist",
+      "output": {
+        "summary": "Project Atlas is preparing for an October 15 release. Accessibility review and support readiness remain key release tasks.",
+        "actions": [
+          "Maya: confirm keyboard navigation in the invitation dialog",
+          "Document empty states",
+          "Jonah: publish the support runbook"
+        ]
+      }
+    },
+    {
+      "id": "customer-interviews",
+      "output": {
+        "summary": "Research participants wanted to see the documents and quoted passages behind answers.",
+        "actions": [
+          "Show source names in answers",
+          "Link quoted passages to original documents"
+        ]
+      }
+    }
+  ]
+}

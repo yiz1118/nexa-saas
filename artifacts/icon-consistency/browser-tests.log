@@ -1,0 +1,71 @@
+
+> nexa-concept@1.0.0 test:browser
+> playwright test
+
+[WebServer] (node:191976) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 1 worker
+
+(node:195520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\icon-consistency.spec.ts:5:5 › UI icons are decorative SVGs across marketing and workspace routes (6.3s)
+  x   2 tests\browser\icon-consistency.spec.ts:34:5 › SVG controls preserve desktop hover, mobile touch targets, and reduced motion (6.5s)
+(node:188288) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  3 tests\browser\journeys.spec.ts:6:5 › marketing paths and local demo entry work (1.2s)
+  ok  4 tests\browser\journeys.spec.ts:20:5 › upload, search, inspect, assign, and persist a local text document (550ms)
+  ok  5 tests\browser\journeys.spec.ts:35:5 › chat returns a real source passage and an honest fallback (2.1s)
+  ok  6 tests\browser\journeys.spec.ts:47:5 › workflow editor validates steps, records failure, and retries successfully (3.5s)
+  ok  7 tests\browser\journeys.spec.ts:68:5 › forms, empty state, rejected upload, reset, and keyboard dialog work (1.0s)
+  ok  8 tests\browser\journeys.spec.ts:92:5 › all requested viewports render without horizontal page overflow (14.4s)
+  ok  9 tests\browser\journeys.spec.ts:104:5 › automated accessibility checks on primary screens (9.1s)
+  ok 10 tests\browser\journeys.spec.ts:117:5 › corrupt and unavailable browser storage remain recoverable (668ms)
+  ok 11 tests\browser\journeys.spec.ts:133:5 › collection, team, settings, and pricing controls remain local (1.0s)
+  ok 12 tests\browser\journeys.spec.ts:154:5 › a storage write failure preserves usable in-memory changes (551ms)
+  ok 13 tests\browser\journeys.spec.ts:171:5 › interactive preview opens a real source and narrows its document list (648ms)
+  ok 14 tests\browser\journeys.spec.ts:181:5 › metadata uploads, rename, filters, sorting, and deletion update the local library (706ms)
+  ok 15 tests\browser\journeys.spec.ts:203:5 › signup, edited collections, roles, and analytics controls persist or display their scope (1.4s)
+  ok 16 tests\browser\journeys.spec.ts:233:5 › chat context excludes other sources and workflow creation and duplication remain editable (1.5s)
+  ok 17 tests\browser\journeys.spec.ts:253:5 › mobile drawer and dialogs keep keyboard focus usable with reduced motion (512ms)
+  ok 18 tests\browser\screenshots.spec.ts:5:5 › capture the six requested portfolio screens (4.7s)
+
+
+  1) tests\browser\icon-consistency.spec.ts:34:5 › SVG controls preserve desktop hover, mobile touch targets, and reduced motion 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  getByRole('button', { name: 'Open navigation' })
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" getByRole('button', { name: 'Open navigation' }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Open navigation' })
+        14 × locator resolved to <button type="button" aria-expanded="false" aria-label="Open navigation" class="mobile-menu icon-button">…</button>
+           - unexpected value "inactive"
+
+
+      58 |     await expect(close.locator("svg")).toHaveAttribute("aria-hidden", "true");
+      59 |     await close.tap();
+    > 60 |     await expect(open).toBeFocused();
+         |                        ^
+      61 |     const duration = await open.evaluate(element => getComputedStyle(element).transitionDuration);
+      62 |     expect(duration.split(",").every(value => parseFloat(value) <= 0.001)).toBe(true);
+      63 |     await mobile.goto("http://127.0.0.1:3213/demo-request");
+        at C:\Users\alson\Documents\codexProject\Freelance Portfolio\Portfolio website\03 — Technology  AI SaaS Website + Dashboard\tests\browser\icon-consistency.spec.ts:60:24
+
+    Error Context: test-results\icon-consistency-SVG-contr-5130d--targets-and-reduced-motion\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\icon-consistency-SVG-contr-5130d--targets-and-reduced-motion\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\icon-consistency-SVG-contr-5130d--targets-and-reduced-motion\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\browser\icon-consistency.spec.ts:34:5 › SVG controls preserve desktop hover, mobile touch targets, and reduced motion 
+  17 passed (1.0m)

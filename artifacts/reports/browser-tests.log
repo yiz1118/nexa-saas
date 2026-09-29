@@ -1,0 +1,29 @@
+
+> nexa-concept@1.0.0 test:browser
+> playwright test
+
+[WebServer] (node:180748) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 16 tests using 1 worker
+
+(node:170252) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\journeys.spec.ts:6:5 › marketing paths and local demo entry work (1.6s)
+  ok  2 tests\browser\journeys.spec.ts:20:5 › upload, search, inspect, assign, and persist a local text document (747ms)
+  ok  3 tests\browser\journeys.spec.ts:35:5 › chat returns a real source passage and an honest fallback (2.1s)
+  ok  4 tests\browser\journeys.spec.ts:47:5 › workflow editor validates steps, records failure, and retries successfully (3.5s)
+  ok  5 tests\browser\journeys.spec.ts:68:5 › forms, empty state, rejected upload, reset, and keyboard dialog work (1.0s)
+  ok  6 tests\browser\journeys.spec.ts:92:5 › all requested viewports render without horizontal page overflow (11.5s)
+  ok  7 tests\browser\journeys.spec.ts:104:5 › automated accessibility checks on primary screens (10.2s)
+  ok  8 tests\browser\journeys.spec.ts:117:5 › corrupt and unavailable browser storage remain recoverable (732ms)
+  ok  9 tests\browser\journeys.spec.ts:133:5 › collection, team, settings, and pricing controls remain local (1.0s)
+  ok 10 tests\browser\journeys.spec.ts:154:5 › a storage write failure preserves usable in-memory changes (583ms)
+  ok 11 tests\browser\journeys.spec.ts:171:5 › interactive preview opens a real source and narrows its document list (571ms)
+  ok 12 tests\browser\journeys.spec.ts:181:5 › metadata uploads, rename, filters, sorting, and deletion update the local library (702ms)
+  ok 13 tests\browser\journeys.spec.ts:203:5 › signup, edited collections, roles, and analytics controls persist or display their scope (1.4s)
+  ok 14 tests\browser\journeys.spec.ts:233:5 › chat context excludes other sources and workflow creation and duplication remain editable (1.6s)
+  ok 15 tests\browser\journeys.spec.ts:253:5 › mobile drawer and dialogs keep keyboard focus usable with reduced motion (617ms)
+  ok 16 tests\browser\screenshots.spec.ts:5:5 › capture the six requested portfolio screens (4.9s)
+
+  16 passed (46.7s)

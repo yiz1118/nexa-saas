@@ -1,0 +1,137 @@
+{
+  "filesChecked": 50,
+  "occurrences": [
+    {
+      "file": "app/globals.css",
+      "line": 15,
+      "symbol": "+",
+      "codepoint": "U+2B",
+      "context": "@import \"tailwindcss\";\n\n:root{--ink:#1c2927;--muted:#62716d;--line:#dce4df;--paper:#f7f8f5;--white:#fff;--teal:#0e7569;--teal-dark:#07584e;--teal-soft:#e5f4ef;--amber:#b66b25;--sha",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "app/globals.css",
+      "line": 21,
+      "symbol": "+",
+      "codepoint": "U+2B",
+      "context": "@import \"tailwindcss\";\n\n:root{--ink:#1c2927;--muted:#62716d;--line:#dce4df;--paper:#f7f8f5;--white:#fff;--teal:#0e7569;--teal-dark:#07584e;--teal-soft:#e5f4ef;--amber:#b66b25;--sha",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "app/globals.css",
+      "line": 24,
+      "symbol": "+",
+      "codepoint": "U+2B",
+      "context": "@import \"tailwindcss\";\n\n:root{--ink:#1c2927;--muted:#62716d;--line:#dce4df;--paper:#f7f8f5;--white:#fff;--teal:#0e7569;--teal-dark:#07584e;--teal-soft:#e5f4ef;--amber:#b66b25;--sha",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "app/globals.css",
+      "line": 48,
+      "symbol": "+",
+      "codepoint": "U+2B",
+      "context": "@import \"tailwindcss\";\n\n:root{--ink:#1c2927;--muted:#62716d;--line:#dce4df;--paper:#f7f8f5;--white:#fff;--teal:#0e7569;--teal-dark:#07584e;--teal-soft:#e5f4ef;--amber:#b66b25;--sha",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "components/views/chat.tsx",
+      "line": 13,
+      "symbol": "…",
+      "codepoint": "U+2026",
+      "context": "Preparing a sample answer…",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "components/views/chat.tsx",
+      "line": 13,
+      "symbol": "…",
+      "codepoint": "U+2026",
+      "context": "Ask about a document or decision…",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "components/views/documents.tsx",
+      "line": 11,
+      "symbol": "…",
+      "codepoint": "U+2026",
+      "context": "Reading files…",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "components/views/documents.tsx",
+      "line": 11,
+      "symbol": "–",
+      "codepoint": "U+2013",
+      "context": "Name A–Z",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "components/views/overview.tsx",
+      "line": 9,
+      "symbol": "–",
+      "codepoint": "U+2013",
+      "context": "Prepared example question volume · Sep 15–28",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "components/views/overview.tsx",
+      "line": 9,
+      "symbol": "+",
+      "codepoint": "U+2B",
+      "context": "Sample + local",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "components/views/workflows.tsx",
+      "line": 12,
+      "symbol": "…",
+      "codepoint": "U+2026",
+      "context": "…",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "components/views/workflows.tsx",
+      "line": 12,
+      "symbol": "…",
+      "codepoint": "U+2026",
+      "context": "…",
+      "classification": "ordinary typography or copy"
+    },
+    {
+      "file": "scripts/audit-icons.mjs",
+      "line": 31,
+      "symbol": "+",
+      "codepoint": "U+2B",
+      "context": "U+",
+      "classification": "ordinary typography or copy"
+    }
+  ],
+  "pseudoContents": [
+    {
+      "file": "app/globals.css",
+      "value": "\"\""
+    },
+    {
+      "file": "app/globals.css",
+      "value": "\"\""
+    },
+    {
+      "file": "app/globals.css",
+      "value": "\"\""
+    },
+    {
+      "file": "app/globals.css",
+      "value": "\"\""
+    },
+    {
+      "file": "app/globals.css",
+      "value": "\"\""
+    },
+    {
+      "file": "app/globals.css",
+      "value": "attr(data-label) \": \""
+    }
+  ],
+  "escapedSymbols": [],
+  "remainingUnicodeUiIcons": []
+}

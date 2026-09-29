@@ -1,0 +1,44 @@
+
+> nexa-concept@1.0.0 build
+> next build --webpack
+
+▲ Next.js 16.3.6 (webpack)
+✓ Running next.config.ts took 44ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 4.3s
+  Running TypeScript ...
+  Finished TypeScript in 1886ms ...
+  Collecting page data using 21 workers ...
+  Generating static pages using 21 workers (0/20) ...
+  Generating static pages using 21 workers (5/20) 
+  Generating static pages using 21 workers (10/20) 
+  Generating static pages using 21 workers (15/20) 
+✓ Generating static pages using 21 workers (20/20) in 2.1s
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /app
+├ ○ /app/analytics
+├ ○ /app/chat
+├ ○ /app/documents
+├ ○ /app/knowledge
+├ ○ /app/settings
+├ ○ /app/team
+├ ○ /app/workflows
+├ ○ /demo-request
+├ ○ /features
+├ ○ /icon.svg
+├ ○ /integrations
+├ ○ /login
+├ ○ /pricing
+├ ○ /product
+├ ○ /signup
+└ ○ /use-cases
+
+
+○  (Static)  prerendered as static content
+

@@ -1,0 +1,16 @@
+
+> nexa-concept@1.0.0 test
+> tsx --test tests/*.test.ts
+
+✔ curated answers cite a passage that exists in the permitted source (1.2477ms)
+✔ uploaded text is eligible for local search while PDFs remain metadata only (0.765ms)
+✔ workflow validation and sample output keep unsupported sources explicit (0.3729ms)
+✔ saved workspace requires the expected version and primary collections (0.519ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 196.5805

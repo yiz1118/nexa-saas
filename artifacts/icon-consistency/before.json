@@ -1,0 +1,4322 @@
+[
+  {
+    "route": "/",
+    "width": 375,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 98.59375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [
+        {
+          "x": 18,
+          "y": 98.59375,
+          "width": 339,
+          "height": 1050.0625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "50px 0px 60px",
+          "gap": "30px"
+        }
+      ],
+      ".hero-copy h1": [
+        {
+          "x": 18,
+          "y": 193.984375,
+          "width": 339,
+          "height": 94.8125,
+          "font": "700 44px / 46.42px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual": [
+        {
+          "x": 18,
+          "y": 641.859375,
+          "width": 339,
+          "height": 446.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-note": [
+        {
+          "x": 18,
+          "y": 586.265625,
+          "width": 339,
+          "height": 25.59375,
+          "font": "600 11px / 17.6px manrope, \"manrope Fallback\"",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px",
+          "gap": "9px"
+        }
+      ],
+      ".hero-visual-label": [
+        {
+          "x": 18,
+          "y": 641.859375,
+          "width": 339,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px 4px 13px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual-footer": [
+        {
+          "x": 18,
+          "y": 1060.65625,
+          "width": 339,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "13px 4px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".product-preview": [
+        {
+          "x": 18,
+          "y": 669.859375,
+          "width": 339,
+          "height": 390.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 23,
+          "y": 719.859375,
+          "width": 62,
+          "height": 30.390625,
+          "font": "800 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 4px 16px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 23,
+          "y": 750.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 783.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 816.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 849.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 882.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 99,
+          "y": 744.859375,
+          "width": 247,
+          "height": 48.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [
+        {
+          "x": 0,
+          "y": 2649.203125,
+          "width": 375,
+          "height": 856.84375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(231, 242, 235)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "70px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".answer-avatar": [
+        {
+          "x": 46,
+          "y": 3216.3125,
+          "width": 30,
+          "height": 30,
+          "font": "20px / 32px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgb(213, 238, 226)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 1245.4375,
+          "width": 375,
+          "height": 1403.765625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        },
+        {
+          "x": 0,
+          "y": 3506.046875,
+          "width": 375,
+          "height": 1118.328125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 235.625,
+          "y": 15,
+          "width": 121.375,
+          "height": 36,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 448.671875,
+          "width": 339,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 507.46875,
+          "width": 339,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 4853.484375,
+          "width": 204.0625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 90.0625,
+          "y": 5331.515625,
+          "width": 194.875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": [
+        {
+          "x": 18,
+          "y": 3034.53125,
+          "width": 192.328125,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/product",
+    "width": 375,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 98.59375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [
+        {
+          "x": 18,
+          "y": 547.78125,
+          "width": 339,
+          "height": 406.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 23,
+          "y": 597.78125,
+          "width": 62,
+          "height": 30.390625,
+          "font": "800 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 4px 16px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 23,
+          "y": 628.171875,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 661.171875,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 694.171875,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 727.171875,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 760.171875,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 107,
+          "y": 625.78125,
+          "width": 231,
+          "height": 76.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 1020.578125,
+          "width": 375,
+          "height": 1369.578125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 235.625,
+          "y": 15,
+          "width": 121.375,
+          "height": 36,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 473.984375,
+          "width": 151.6875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 3234.171875,
+          "width": 208.15625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/app",
+    "width": 375,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 20,
+          "y": 222.3125,
+          "width": 158.4375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 51,
+          "y": 2666.8125,
+          "width": 132.34375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 59,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "",
+          "padding": "0px 24px",
+          "gap": "normal"
+        }
+      ],
+      ".app-content": [
+        {
+          "x": 0,
+          "y": 59,
+          "width": 375,
+          "height": 2738.609375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "25px 20px 55px",
+          "gap": "normal"
+        }
+      ],
+      ".sidebar-tip": [
+        {
+          "x": -247.54998779296875,
+          "y": 771.046875,
+          "width": 235,
+          "height": 143.171875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(192, 209, 199)",
+          "background": "rgb(41, 62, 52)",
+          "border": "1px solid rgb(66, 96, 77)",
+          "padding": "13px",
+          "gap": "normal"
+        }
+      ],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/demo-request",
+    "width": 375,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 43,
+          "y": 694.296875,
+          "width": 289,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [
+        {
+          "x": 18,
+          "y": 96,
+          "width": 339,
+          "height": 672.09375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(220, 228, 223)",
+          "padding": "24px",
+          "gap": "normal"
+        }
+      ],
+      ".inline-link": [
+        {
+          "x": 18,
+          "y": 793.09375,
+          "width": 339,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 98.59375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [
+        {
+          "x": 18,
+          "y": 98.59375,
+          "width": 354,
+          "height": 1050.0625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "50px 0px 60px",
+          "gap": "30px"
+        }
+      ],
+      ".hero-copy h1": [
+        {
+          "x": 18,
+          "y": 193.984375,
+          "width": 354,
+          "height": 94.8125,
+          "font": "700 44px / 46.42px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual": [
+        {
+          "x": 18,
+          "y": 641.859375,
+          "width": 354,
+          "height": 446.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-note": [
+        {
+          "x": 18,
+          "y": 586.265625,
+          "width": 354,
+          "height": 25.59375,
+          "font": "600 11px / 17.6px manrope, \"manrope Fallback\"",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px",
+          "gap": "9px"
+        }
+      ],
+      ".hero-visual-label": [
+        {
+          "x": 18,
+          "y": 641.859375,
+          "width": 354,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px 4px 13px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual-footer": [
+        {
+          "x": 18,
+          "y": 1060.65625,
+          "width": 354,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "13px 4px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".product-preview": [
+        {
+          "x": 18,
+          "y": 669.859375,
+          "width": 354,
+          "height": 390.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 23,
+          "y": 719.859375,
+          "width": 62,
+          "height": 30.390625,
+          "font": "800 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 4px 16px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 23,
+          "y": 750.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 783.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 816.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 849.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 882.25,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 99,
+          "y": 744.859375,
+          "width": 262,
+          "height": 48.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [
+        {
+          "x": 0,
+          "y": 2628.890625,
+          "width": 390,
+          "height": 788.03125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(231, 242, 235)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "70px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".answer-avatar": [
+        {
+          "x": 46,
+          "y": 3127.1875,
+          "width": 30,
+          "height": 30,
+          "font": "20px / 32px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgb(213, 238, 226)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 1245.4375,
+          "width": 390,
+          "height": 1383.453125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        },
+        {
+          "x": 0,
+          "y": 3416.921875,
+          "width": 390,
+          "height": 1118.328125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 250.625,
+          "y": 15,
+          "width": 121.375,
+          "height": 36,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 448.671875,
+          "width": 354,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 507.46875,
+          "width": 354,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 4764.359375,
+          "width": 204.0625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 97.5625,
+          "y": 5242.390625,
+          "width": 194.875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": [
+        {
+          "x": 18,
+          "y": 2945.40625,
+          "width": 192.328125,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/product",
+    "width": 390,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 98.59375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [
+        {
+          "x": 18,
+          "y": 520.59375,
+          "width": 354,
+          "height": 406.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 23,
+          "y": 570.59375,
+          "width": 62,
+          "height": 30.390625,
+          "font": "800 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 4px 16px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 23,
+          "y": 600.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 633.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 666.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 699.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 732.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 107,
+          "y": 598.59375,
+          "width": 246,
+          "height": 76.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 993.390625,
+          "width": 390,
+          "height": 1366.265625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 250.625,
+          "y": 15,
+          "width": 121.375,
+          "height": 36,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 446.796875,
+          "width": 151.6875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 3132,
+          "width": 208.15625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/app",
+    "width": 390,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 20,
+          "y": 222.3125,
+          "width": 158.4375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 51,
+          "y": 2635.046875,
+          "width": 132.34375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 59,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "",
+          "padding": "0px 24px",
+          "gap": "normal"
+        }
+      ],
+      ".app-content": [
+        {
+          "x": 0,
+          "y": 59,
+          "width": 390,
+          "height": 2706.84375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "25px 20px 55px",
+          "gap": "normal"
+        }
+      ],
+      ".sidebar-tip": [
+        {
+          "x": -247.54998779296875,
+          "y": 771.046875,
+          "width": 235,
+          "height": 143.171875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(192, 209, 199)",
+          "background": "rgb(41, 62, 52)",
+          "border": "1px solid rgb(66, 96, 77)",
+          "padding": "13px",
+          "gap": "normal"
+        }
+      ],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/demo-request",
+    "width": 390,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 43,
+          "y": 694.296875,
+          "width": 304,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [
+        {
+          "x": 18,
+          "y": 96,
+          "width": 354,
+          "height": 672.09375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(220, 228, 223)",
+          "padding": "24px",
+          "gap": "normal"
+        }
+      ],
+      ".inline-link": [
+        {
+          "x": 18,
+          "y": 793.09375,
+          "width": 354,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 98.59375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [
+        {
+          "x": 18,
+          "y": 98.59375,
+          "width": 394,
+          "height": 971.765625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "50px 0px 60px",
+          "gap": "30px"
+        }
+      ],
+      ".hero-copy h1": [
+        {
+          "x": 18,
+          "y": 193.984375,
+          "width": 394,
+          "height": 100.78125,
+          "font": "700 47.3px / 49.9015px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual": [
+        {
+          "x": 18,
+          "y": 563.5625,
+          "width": 394,
+          "height": 446.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-note": [
+        {
+          "x": 18,
+          "y": 507.96875,
+          "width": 394,
+          "height": 25.59375,
+          "font": "600 11px / 17.6px manrope, \"manrope Fallback\"",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px",
+          "gap": "9px"
+        }
+      ],
+      ".hero-visual-label": [
+        {
+          "x": 18,
+          "y": 563.5625,
+          "width": 394,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px 4px 13px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual-footer": [
+        {
+          "x": 18,
+          "y": 982.359375,
+          "width": 394,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "13px 4px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".product-preview": [
+        {
+          "x": 18,
+          "y": 591.5625,
+          "width": 394,
+          "height": 390.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 23,
+          "y": 641.5625,
+          "width": 62,
+          "height": 30.390625,
+          "font": "800 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 4px 16px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 23,
+          "y": 671.953125,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 704.953125,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 737.953125,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 770.953125,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 803.953125,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 99,
+          "y": 666.5625,
+          "width": 302,
+          "height": 48.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [
+        {
+          "x": 0,
+          "y": 2510.96875,
+          "width": 430,
+          "height": 762.84375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(231, 242, 235)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "70px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".answer-avatar": [
+        {
+          "x": 46,
+          "y": 3009.265625,
+          "width": 30,
+          "height": 30,
+          "font": "20px / 32px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgb(213, 238, 226)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 1167.140625,
+          "width": 430,
+          "height": 1343.828125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        },
+        {
+          "x": 0,
+          "y": 3273.8125,
+          "width": 430,
+          "height": 1075.015625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 290.625,
+          "y": 15,
+          "width": 121.375,
+          "height": 36,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 429.171875,
+          "width": 192,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 220,
+          "y": 429.171875,
+          "width": 192,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 4577.9375,
+          "width": 204.0625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 117.5625,
+          "y": 4969.34375,
+          "width": 194.875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": [
+        {
+          "x": 18,
+          "y": 2827.484375,
+          "width": 192.328125,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/product",
+    "width": 430,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 98.59375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [
+        {
+          "x": 18,
+          "y": 520.59375,
+          "width": 394,
+          "height": 406.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 23,
+          "y": 570.59375,
+          "width": 62,
+          "height": 30.390625,
+          "font": "800 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 4px 16px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 23,
+          "y": 600.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 633.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 666.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 699.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        },
+        {
+          "x": 23,
+          "y": 732.984375,
+          "width": 62,
+          "height": 33,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 107,
+          "y": 598.59375,
+          "width": 286,
+          "height": 76.796875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 993.390625,
+          "width": 430,
+          "height": 1248.515625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 290.625,
+          "y": 15,
+          "width": 121.375,
+          "height": 36,
+          "font": "700 10px / 16px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 446.796875,
+          "width": 151.6875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 2970.9375,
+          "width": 208.15625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/app",
+    "width": 430,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 20,
+          "y": 198.515625,
+          "width": 158.4375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 51,
+          "y": 2590.859375,
+          "width": 132.34375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 59,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "",
+          "padding": "0px 24px",
+          "gap": "normal"
+        }
+      ],
+      ".app-content": [
+        {
+          "x": 0,
+          "y": 59,
+          "width": 430,
+          "height": 2662.65625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "25px 20px 55px",
+          "gap": "normal"
+        }
+      ],
+      ".sidebar-tip": [
+        {
+          "x": -247.54998779296875,
+          "y": 771.046875,
+          "width": 235,
+          "height": 143.171875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(192, 209, 199)",
+          "background": "rgb(41, 62, 52)",
+          "border": "1px solid rgb(66, 96, 77)",
+          "padding": "13px",
+          "gap": "normal"
+        }
+      ],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/demo-request",
+    "width": 430,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 43,
+          "y": 670.5,
+          "width": 344,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [
+        {
+          "x": 18,
+          "y": 96,
+          "width": 394,
+          "height": 648.296875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(220, 228, 223)",
+          "padding": "24px",
+          "gap": "normal"
+        }
+      ],
+      ".inline-link": [
+        {
+          "x": 18,
+          "y": 769.296875,
+          "width": 394,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 103.375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [
+        {
+          "x": 18,
+          "y": 103.375,
+          "width": 732,
+          "height": 1235.234375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "50px 0px 60px",
+          "gap": "30px"
+        }
+      ],
+      ".hero-copy h1": [
+        {
+          "x": 18,
+          "y": 198.765625,
+          "width": 720,
+          "height": 147.84375,
+          "font": "700 69.12px / 72.9216px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual": [
+        {
+          "x": 18,
+          "y": 626.328125,
+          "width": 732,
+          "height": 652.28125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-note": [
+        {
+          "x": 18,
+          "y": 570.734375,
+          "width": 720,
+          "height": 25.59375,
+          "font": "600 11px / 17.6px manrope, \"manrope Fallback\"",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px",
+          "gap": "9px"
+        }
+      ],
+      ".hero-visual-label": [
+        {
+          "x": 18,
+          "y": 626.328125,
+          "width": 732,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px 4px 13px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual-footer": [
+        {
+          "x": 18,
+          "y": 1250.609375,
+          "width": 732,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "13px 4px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".product-preview": [
+        {
+          "x": 18,
+          "y": 654.328125,
+          "width": 732,
+          "height": 596.28125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 29,
+          "y": 710.328125,
+          "width": 90,
+          "height": 46.1875,
+          "font": "800 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 10px 27px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 29,
+          "y": 756.515625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 29,
+          "y": 789.515625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 29,
+          "y": 822.515625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 29,
+          "y": 855.515625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 29,
+          "y": 888.515625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 152,
+          "y": 742.328125,
+          "width": 574,
+          "height": 65.890625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 640.171875,
+          "y": 760.078125,
+          "width": 85.828125,
+          "height": 30.390625,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [
+        {
+          "x": 0,
+          "y": 2398.625,
+          "width": 768,
+          "height": 737.65625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(231, 242, 235)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "70px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".answer-avatar": [
+        {
+          "x": 46,
+          "y": 2896.921875,
+          "width": 30,
+          "height": 30,
+          "font": "20px / 32px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgb(213, 238, 226)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 1433.609375,
+          "width": 768,
+          "height": 965.015625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        },
+        {
+          "x": 0,
+          "y": 3136.28125,
+          "width": 768,
+          "height": 819.015625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 615.75,
+          "y": 15,
+          "width": 134.25,
+          "height": 39.1875,
+          "font": "700 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 491.9375,
+          "width": 176.359375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 204.359375,
+          "y": 491.9375,
+          "width": 170.84375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 545.9375,
+          "y": 4042.28125,
+          "width": 204.0625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 555.125,
+          "y": 4311.0625,
+          "width": 194.875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": [
+        {
+          "x": 18,
+          "y": 2715.140625,
+          "width": 192.328125,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/product",
+    "width": 768,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 103.375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [
+        {
+          "x": 18,
+          "y": 445.5625,
+          "width": 640,
+          "height": 435.78125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 29,
+          "y": 501.5625,
+          "width": 90,
+          "height": 46.1875,
+          "font": "800 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 10px 27px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 29,
+          "y": 547.75,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 29,
+          "y": 580.75,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 29,
+          "y": 613.75,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 29,
+          "y": 646.75,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 29,
+          "y": 679.75,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 147,
+          "y": 523.5625,
+          "width": 492,
+          "height": 105.78125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 553.171875,
+          "y": 561.25,
+          "width": 85.828125,
+          "height": 30.390625,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 947.34375,
+          "width": 768,
+          "height": 938.515625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "75px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 615.75,
+          "y": 15,
+          "width": 134.25,
+          "height": 39.1875,
+          "font": "700 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 18,
+          "y": 371.765625,
+          "width": 151.6875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 541.84375,
+          "y": 2532.84375,
+          "width": 208.15625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/app",
+    "width": 768,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 589.5625,
+          "y": 127.71875,
+          "width": 158.4375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 584.65625,
+          "y": 2369.640625,
+          "width": 132.34375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 59,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "",
+          "padding": "0px 24px",
+          "gap": "normal"
+        }
+      ],
+      ".app-content": [
+        {
+          "x": 0,
+          "y": 59,
+          "width": 768,
+          "height": 2454.984375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "25px 20px 55px",
+          "gap": "normal"
+        }
+      ],
+      ".sidebar-tip": [
+        {
+          "x": -247.54998779296875,
+          "y": 771.046875,
+          "width": 235,
+          "height": 143.171875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(192, 209, 199)",
+          "background": "rgb(41, 62, 52)",
+          "border": "1px solid rgb(66, 96, 77)",
+          "padding": "13px",
+          "gap": "normal"
+        }
+      ],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/demo-request",
+    "width": 768,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 135,
+          "y": 684.328125,
+          "width": 498,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [
+        {
+          "x": 94,
+          "y": 136,
+          "width": 580,
+          "height": 638.125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(220, 228, 223)",
+          "padding": "40px",
+          "gap": "normal"
+        }
+      ],
+      ".inline-link": [
+        {
+          "x": 18,
+          "y": 799.125,
+          "width": 732,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 76,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [
+        {
+          "x": 32,
+          "y": 76,
+          "width": 960,
+          "height": 1196.734375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "70px 0px 83px",
+          "gap": "30px"
+        }
+      ],
+      ".hero-copy h1": [
+        {
+          "x": 32,
+          "y": 191.390625,
+          "width": 720,
+          "height": 66.34375,
+          "font": "700 61px / 64.355px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual": [
+        {
+          "x": 32,
+          "y": 537.453125,
+          "width": 730,
+          "height": 652.28125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-note": [
+        {
+          "x": 32,
+          "y": 481.859375,
+          "width": 720,
+          "height": 25.59375,
+          "font": "600 11px / 17.6px manrope, \"manrope Fallback\"",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px",
+          "gap": "9px"
+        }
+      ],
+      ".hero-visual-label": [
+        {
+          "x": 32,
+          "y": 537.453125,
+          "width": 730,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px 4px 13px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual-footer": [
+        {
+          "x": 32,
+          "y": 1161.734375,
+          "width": 730,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "13px 4px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".product-preview": [
+        {
+          "x": 32,
+          "y": 565.453125,
+          "width": 730,
+          "height": 596.28125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 43,
+          "y": 621.453125,
+          "width": 90,
+          "height": 46.1875,
+          "font": "800 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 10px 27px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 43,
+          "y": 667.640625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 43,
+          "y": 700.640625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 43,
+          "y": 733.640625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 43,
+          "y": 766.640625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 43,
+          "y": 799.640625,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 166,
+          "y": 653.453125,
+          "width": 572,
+          "height": 65.890625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 652.171875,
+          "y": 671.203125,
+          "width": 85.828125,
+          "height": 30.390625,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [
+        {
+          "x": 0,
+          "y": 2439.46875,
+          "width": 1024,
+          "height": 524.9375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(231, 242, 235)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "100px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".answer-avatar": [
+        {
+          "x": 590,
+          "y": 2669.859375,
+          "width": 30,
+          "height": 30,
+          "font": "20px / 32px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgb(213, 238, 226)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 1384.734375,
+          "width": 1024,
+          "height": 1054.734375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "116px 0px",
+          "gap": "normal"
+        },
+        {
+          "x": 0,
+          "y": 2964.40625,
+          "width": 1024,
+          "height": 651.734375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "116px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 865.75,
+          "y": 17.90625,
+          "width": 134.25,
+          "height": 39.1875,
+          "font": "700 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 32,
+          "y": 403.0625,
+          "width": 176.359375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 218.359375,
+          "y": 403.0625,
+          "width": 170.84375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 787.9375,
+          "y": 3692.078125,
+          "width": 204.0625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 797.125,
+          "y": 3953.171875,
+          "width": 194.875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": [
+        {
+          "x": 32,
+          "y": 2818.359375,
+          "width": 192.328125,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/product",
+    "width": 1024,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 76,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [
+        {
+          "x": 524.5,
+          "y": 171,
+          "width": 467.5,
+          "height": 462.96875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 535.5,
+          "y": 227,
+          "width": 90,
+          "height": 46.1875,
+          "font": "800 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 10px 27px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 535.5,
+          "y": 273.1875,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 535.5,
+          "y": 306.1875,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 535.5,
+          "y": 339.1875,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 535.5,
+          "y": 372.1875,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 535.5,
+          "y": 405.1875,
+          "width": 90,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 653.5,
+          "y": 249,
+          "width": 319.5,
+          "height": 132.96875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 887.171875,
+          "y": 300.28125,
+          "width": 85.828125,
+          "height": 30.390625,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 734.96875,
+          "width": 1024,
+          "height": 1027.234375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "116px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 865.75,
+          "y": 17.90625,
+          "width": 134.25,
+          "height": 39.1875,
+          "font": "700 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 32,
+          "y": 523.078125,
+          "width": 151.6875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 783.84375,
+          "y": 2342.859375,
+          "width": 208.15625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/app",
+    "width": 1024,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 841.5625,
+          "y": 132.71875,
+          "width": 158.4375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 836.65625,
+          "y": 2354.25,
+          "width": 132.34375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [
+        {
+          "x": 210,
+          "y": 0,
+          "width": 814,
+          "height": 61,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "",
+          "padding": "0px 24px",
+          "gap": "normal"
+        }
+      ],
+      ".app-content": [
+        {
+          "x": 210,
+          "y": 61,
+          "width": 814,
+          "height": 2442.59375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "28px 24px 60px",
+          "gap": "normal"
+        }
+      ],
+      ".sidebar-tip": [
+        {
+          "x": 10,
+          "y": 752.453125,
+          "width": 190,
+          "height": 161.765625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(192, 209, 199)",
+          "background": "rgb(41, 62, 52)",
+          "border": "1px solid rgb(66, 96, 77)",
+          "padding": "13px",
+          "gap": "normal"
+        }
+      ],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/demo-request",
+    "width": 1024,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 263,
+          "y": 684.328125,
+          "width": 498,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [
+        {
+          "x": 222,
+          "y": 136,
+          "width": 580,
+          "height": 638.125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(220, 228, 223)",
+          "padding": "40px",
+          "gap": "normal"
+        }
+      ],
+      ".inline-link": [
+        {
+          "x": 32,
+          "y": 799.125,
+          "width": 960,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 76,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [
+        {
+          "x": 90,
+          "y": 76,
+          "width": 1260,
+          "height": 807.28125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "72px 0px 83px",
+          "gap": "55px"
+        }
+      ],
+      ".hero-copy h1": [
+        {
+          "x": 90,
+          "y": 290.71875,
+          "width": 500.0625,
+          "height": 162.5,
+          "font": "700 75.6px / 79.758px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual": [
+        {
+          "x": 645.0625,
+          "y": 148,
+          "width": 704.9375,
+          "height": 652.28125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-note": [
+        {
+          "x": 90,
+          "y": 677.34375,
+          "width": 500.0625,
+          "height": 25.59375,
+          "font": "600 11px / 17.6px manrope, \"manrope Fallback\"",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px",
+          "gap": "9px"
+        }
+      ],
+      ".hero-visual-label": [
+        {
+          "x": 645.0625,
+          "y": 148,
+          "width": 704.9375,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "0px 4px 13px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-visual-footer": [
+        {
+          "x": 645.0625,
+          "y": 772.28125,
+          "width": 704.9375,
+          "height": 28,
+          "font": "700 10px / 15px ui-monospace, monospace",
+          "color": "rgb(83, 103, 90)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(83, 103, 90)",
+          "padding": "13px 4px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".product-preview": [
+        {
+          "x": 645.0625,
+          "y": 176,
+          "width": 704.9375,
+          "height": 596.28125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 656.0625,
+          "y": 232,
+          "width": 118,
+          "height": 46.1875,
+          "font": "800 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 10px 27px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 656.0625,
+          "y": 278.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 656.0625,
+          "y": 311.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 656.0625,
+          "y": 344.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 656.0625,
+          "y": 377.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 656.0625,
+          "y": 410.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 807.0625,
+          "y": 264,
+          "width": 518.9375,
+          "height": 65.890625,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 1240.171875,
+          "y": 281.75,
+          "width": 85.828125,
+          "height": 30.390625,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [
+        {
+          "x": 0,
+          "y": 1802.984375,
+          "width": 1440,
+          "height": 513.59375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(231, 242, 235)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "100px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".answer-avatar": [
+        {
+          "x": 798,
+          "y": 2040.296875,
+          "width": 30,
+          "height": 30,
+          "font": "20px / 32px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgb(213, 238, 226)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 995.28125,
+          "width": 1440,
+          "height": 807.703125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "116px 0px",
+          "gap": "normal"
+        },
+        {
+          "x": 0,
+          "y": 2316.578125,
+          "width": 1440,
+          "height": 689.703125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "116px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 1246.75,
+          "y": 17.90625,
+          "width": 134.25,
+          "height": 39.1875,
+          "font": "700 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 90,
+          "y": 598.546875,
+          "width": 176.359375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 276.359375,
+          "y": 598.546875,
+          "width": 170.84375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 1145.9375,
+          "y": 3082.21875,
+          "width": 204.0625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(202, 215, 208)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 1155.125,
+          "y": 3362.296875,
+          "width": 194.875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": [
+        {
+          "x": 90,
+          "y": 2195.1875,
+          "width": 192.328125,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/product",
+    "width": 1440,
+    "elements": {
+      ".marketing-header": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 76,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(251, 252, 250)",
+          "border": "",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [
+        {
+          "x": 760,
+          "y": 171,
+          "width": 590,
+          "height": 435.78125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(217, 228, 221)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-mini-brand": [
+        {
+          "x": 771,
+          "y": 227,
+          "width": 118,
+          "height": 46.1875,
+          "font": "800 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 10px 27px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-side-item": [
+        {
+          "x": 771,
+          "y": 273.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 771,
+          "y": 306.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(197, 241, 220)",
+          "background": "rgb(49, 75, 64)",
+          "border": "0px solid rgb(197, 241, 220)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 771,
+          "y": 339.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 771,
+          "y": 372.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        },
+        {
+          "x": 771,
+          "y": 405.1875,
+          "width": 118,
+          "height": 33,
+          "font": "700 9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(157, 174, 166)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(157, 174, 166)",
+          "padding": "0px 9px",
+          "gap": "8px"
+        }
+      ],
+      ".preview-title-row": [
+        {
+          "x": 917,
+          "y": 249,
+          "width": 414,
+          "height": 105.78125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(36, 48, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(36, 48, 45)",
+          "padding": "0px",
+          "gap": "normal"
+        }
+      ],
+      ".preview-upload": [
+        {
+          "x": 1245.171875,
+          "y": 286.6875,
+          "width": 85.828125,
+          "height": 30.390625,
+          "font": "9px / 14.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(29, 48, 42)",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "8px 9px",
+          "gap": "normal"
+        }
+      ],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [
+        {
+          "x": 0,
+          "y": 707.78125,
+          "width": 1440,
+          "height": 780.203125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "116px 0px",
+          "gap": "normal"
+        }
+      ],
+      ".button": [
+        {
+          "x": 1246.75,
+          "y": 17.90625,
+          "width": 134.25,
+          "height": 39.1875,
+          "font": "700 12px / 19.2px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "9px 14px",
+          "gap": "11px"
+        },
+        {
+          "x": 90,
+          "y": 518.828125,
+          "width": 151.6875,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 1141.84375,
+          "y": 2078.140625,
+          "width": 208.15625,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/app",
+    "width": 1440,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 1243.5625,
+          "y": 138.71875,
+          "width": 158.4375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        },
+        {
+          "x": 1238.65625,
+          "y": 1526.484375,
+          "width": 132.34375,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [
+        {
+          "x": 238,
+          "y": 0,
+          "width": 1202,
+          "height": 61,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "",
+          "padding": "0px 38px",
+          "gap": "normal"
+        }
+      ],
+      ".app-content": [
+        {
+          "x": 238,
+          "y": 61,
+          "width": 1202,
+          "height": 1624.828125,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(28, 41, 39)",
+          "padding": "34px 38px 70px",
+          "gap": "normal"
+        }
+      ],
+      ".sidebar-tip": [
+        {
+          "x": 14,
+          "y": 771.046875,
+          "width": 210,
+          "height": 143.171875,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(192, 209, 199)",
+          "background": "rgb(41, 62, 52)",
+          "border": "1px solid rgb(66, 96, 77)",
+          "padding": "13px",
+          "gap": "normal"
+        }
+      ],
+      ".request-card": [],
+      ".inline-link": []
+    },
+    "overflow": 0
+  },
+  {
+    "route": "/demo-request",
+    "width": 1440,
+    "elements": {
+      ".marketing-header": [],
+      ".hero-inner": [],
+      ".hero-copy h1": [],
+      ".hero-visual": [],
+      ".hero-note": [],
+      ".hero-visual-label": [],
+      ".hero-visual-footer": [],
+      ".product-preview": [],
+      ".preview-mini-brand": [],
+      ".preview-side-item": [],
+      ".preview-title-row": [],
+      ".preview-upload": [],
+      ".feature-band": [],
+      ".answer-avatar": [],
+      ".marketing-section": [],
+      ".button": [
+        {
+          "x": 471,
+          "y": 757.0625,
+          "width": 498,
+          "height": 48.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 41, 39)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "13px 19px",
+          "gap": "11px"
+        }
+      ],
+      ".app-topbar": [],
+      ".app-content": [],
+      ".sidebar-tip": [],
+      ".request-card": [
+        {
+          "x": 430,
+          "y": 136,
+          "width": 580,
+          "height": 710.859375,
+          "font": "14px / 22.4px manrope, \"manrope Fallback\"",
+          "color": "rgb(28, 41, 39)",
+          "background": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(220, 228, 223)",
+          "padding": "40px",
+          "gap": "normal"
+        }
+      ],
+      ".inline-link": [
+        {
+          "x": 90,
+          "y": 871.859375,
+          "width": 1260,
+          "height": 20.796875,
+          "font": "700 13px / 20.8px manrope, \"manrope Fallback\"",
+          "color": "rgb(14, 117, 105)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "0px solid rgb(14, 117, 105)",
+          "padding": "0px",
+          "gap": "8px"
+        }
+      ]
+    },
+    "overflow": 0
+  }
+]
