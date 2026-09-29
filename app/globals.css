@@ -48,6 +48,20 @@
 @media(max-width:768px){.team-surface{overflow:hidden}.team-surface .table-scroll{width:calc(100% + 42px);max-width:none}}
 .preview-insight h3{font-size:12px;line-height:1.5;margin:12px 0 8px;color:#274b3b}
 
+.creator-section{display:flex;align-items:center;justify-content:space-between;gap:40px;margin-top:58px;padding:34px 38px;border:1px solid #d1dfd4;border-radius:10px;background:#f7faf7}
+.creator-copy h2{font-size:26px;letter-spacing:-.055em;margin:11px 0 4px}
+.creator-copy p{margin:0;color:#53645f;font-size:12px}
+.creator-copy .creator-role{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.creator-copy .creator-availability{color:var(--teal);font-weight:700;margin-top:7px}
+.creator-actions{display:grid;justify-items:end;gap:16px}
+.creator-buttons,.creator-contact{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.creator-contact{gap:10px 19px}
+.creator-contact a{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:#53645f;min-height:30px}
+.creator-contact a:hover{color:var(--teal);text-decoration:underline;text-underline-offset:3px}
+.creator-contact svg,.creator-buttons svg{stroke:currentColor}
+@media(max-width:768px){.creator-section{align-items:flex-start;flex-direction:column;gap:26px;padding:28px}.creator-actions{justify-items:start}}
+@media(max-width:430px){.creator-section{padding:24px 20px}.creator-buttons{width:100%}.creator-buttons .button{width:100%}.creator-actions{width:100%}.creator-contact{gap:8px 16px}}
+
 /* SVG replacements retain the original text-icon space. */
 .tiny-grid{display:inline-flex;align-items:center;justify-content:center;width:1em;height:1.6em;flex:none}
 .preview-nav-icon,.preview-brand-icon,.preview-add-icon{position:relative;display:inline-block!important;width:1em;height:1em;flex:none;vertical-align:-.1em}
