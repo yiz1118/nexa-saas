@@ -71,3 +71,45 @@
 .preview-flow svg{display:inline-block;width:1ch;height:1em;vertical-align:-.12em}
 .sidebar-concept-arrow{display:inline-flex;align-items:center;justify-content:center;width:1em;height:1.6em}
 .sidebar-close,.mobile-menu{width:44px;height:44px;margin:-2px}
+
+/* NEXA motion: brief state feedback and one-time product reveals. */
+:root{--motion-ease:cubic-bezier(.22,.68,0,1);--motion-quick:180ms}
+.bar,.large-bar-cell>span{transform-origin:center bottom}
+.button svg{transition:transform var(--motion-quick) var(--motion-ease)}
+.icon-button,.preview-side-item,.preview-source,.preview-table-row,.app-nav a,.recent-doc,.workflow-list-item{transition:background-color var(--motion-quick) var(--motion-ease),border-color var(--motion-quick) var(--motion-ease),color var(--motion-quick) var(--motion-ease)}
+.segmented button{transition:background-color var(--motion-quick) var(--motion-ease),color var(--motion-quick) var(--motion-ease),box-shadow var(--motion-quick) var(--motion-ease)}
+.marketing-nav a{position:relative}
+.marketing-nav a:after{content:"";position:absolute;bottom:-5px;left:0;right:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform var(--motion-quick) var(--motion-ease)}
+.workflow-step{transition:border-color var(--motion-quick) var(--motion-ease),box-shadow var(--motion-quick) var(--motion-ease)}
+.workflow-step-wrap[data-running="true"] .workflow-step{border-color:var(--teal);box-shadow:0 0 0 2px #0e756915}
+@media(prefers-reduced-motion:no-preference){
+  .hero-eyebrow{animation:nexa-enter 360ms var(--motion-ease)}
+  .hero-copy h1,.inner-hero h1{animation:nexa-enter 500ms var(--motion-ease)}
+  .hero-buttons{animation:nexa-enter 400ms var(--motion-ease) 80ms backwards}
+  .hero-visual .product-preview,.inner-hero-visual .product-preview{animation:nexa-preview 600ms var(--motion-ease) 120ms backwards}
+  .section-heading{animation:nexa-panel-enter 280ms var(--motion-ease)}
+  .modal[open]{animation:nexa-dialog-enter 160ms var(--motion-ease)}
+  .sidebar-backdrop{animation:nexa-backdrop-enter 160ms var(--motion-ease)}
+  .app-sidebar{transition:transform 200ms var(--motion-ease)}
+  .workflow-step-wrap[data-running="true"] .step-connector span{transform-origin:top;animation:nexa-connector 250ms var(--motion-ease)}
+}
+@media(hover:hover){
+  .button:hover .lucide-arrow-up-right,.inline-link:hover .lucide-arrow-up-right,.creator-contact a:hover .lucide-arrow-up-right{transform:translate(2px,-2px)}
+  .button:hover .lucide-arrow-right,.inline-link:hover .lucide-arrow-right{transform:translateX(2px)}
+  .preview-side-item:hover{background:#314b40}
+  .preview-source:hover{color:var(--teal-dark)}
+  .marketing-nav a:hover:after{transform:scaleX(1)}
+}
+.inline-link>svg,.creator-contact a>svg{transition:transform var(--motion-quick) var(--motion-ease)}
+.marketing-nav a:focus-visible:after{transform:scaleX(1)}
+.button:active:not(:disabled){transform:scale(.985)}
+.icon-button:active{background:#dfeee3}
+@keyframes nexa-enter{from{transform:translateY(12px)}to{transform:translateY(0)}}
+@keyframes nexa-preview{from{transform:translateY(12px) scale(.985)}to{transform:translateY(0) scale(1)}}
+@keyframes nexa-panel-enter{from{transform:translateY(6px)}to{transform:translateY(0)}}
+@keyframes nexa-dialog-enter{from{transform:translateY(6px) scale(.985)}to{transform:translateY(0) scale(1)}}
+@keyframes nexa-backdrop-enter{from{opacity:0}to{opacity:1}}
+@keyframes nexa-connector{from{transform:scaleY(.25);opacity:.4}to{transform:scaleY(1);opacity:1}}
+@media(max-width:600px) and (prefers-reduced-motion:no-preference){.hero-copy h1,.inner-hero h1{animation-duration:360ms}.hero-visual .product-preview,.inner-hero-visual .product-preview{animation-duration:420ms;animation-delay:60ms}}
+@media(hover:none){.button:hover:not(:disabled){transform:none}.button:active:not(:disabled){transform:scale(.985)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.button:hover:not(:disabled),.button:active:not(:disabled),.button svg,.inline-link>svg,.creator-contact a>svg{transform:none!important}}

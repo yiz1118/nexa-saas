@@ -7,7 +7,7 @@ import desktopConfig from "lighthouse/core/config/lr-desktop-config.js";
 import { launch } from "chrome-launcher";
 
 const origin = "http://127.0.0.1:3213";
-const folder = resolve("artifacts/reports");
+const folder = resolve(process.argv[2] ?? "artifacts/reports");
 // Keep the disposable Chrome profile inside this project's ignored test output.
 // Chrome Launcher can hit EPERM deleting its Windows Temp profile while logs close.
 const chromeProfile = resolve("test-results/lighthouse-profile");

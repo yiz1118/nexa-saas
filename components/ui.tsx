@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useId, useRef } from "react";
 import { X } from "lucide-react";
+import { usePanelMotion } from "@/components/motion";
 
 export function Badge({ children, tone = "neutral" }: { children: React.ReactNode; tone?: "neutral" | "teal" | "amber" | "red" | "blue" }) { return <span className={`badge badge-${tone}`}>{children}</span>; }
 export function EmptyState({ icon, title, body, action }: { icon?: React.ReactNode; title: string; body: string; action?: React.ReactNode }) { return <div className="empty-state"><div className="empty-icon" aria-hidden="true">{icon}</div><h3>{title}</h3><p>{body}</p>{action}</div>; }
@@ -24,6 +25,8 @@ export function Tabs<T extends string | number>({ options, value, onChange, labe
 }) {
   const id = useId();
   const controls = useRef<(HTMLButtonElement | null)[]>([]);
+  const panel = useRef<HTMLDivElement>(null);
+  usePanelMotion(panel, value);
   return <><div className={headerClassName}><div className="segmented" role="tablist" aria-label={label}>
     {options.map((option, index) => <button key={option.value} ref={element => { controls.current[index] = element; }} type="button" role="tab"
       id={`${id}-tab-${option.value}`} aria-controls={`${id}-panel`} aria-selected={value === option.value}
@@ -39,5 +42,5 @@ export function Tabs<T extends string | number>({ options, value, onChange, labe
         onChange(options[next].value);
         controls.current[next]?.focus();
       }}>{option.label}</button>)}
-  </div>{trailing}</div><div role="tabpanel" id={`${id}-panel`} aria-labelledby={`${id}-tab-${value}`} tabIndex={0}>{children}</div></>;
+  </div>{trailing}</div><div ref={panel} role="tabpanel" id={`${id}-panel`} aria-labelledby={`${id}-tab-${value}`} tabIndex={0}>{children}</div></>;
 }

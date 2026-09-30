@@ -90,6 +90,9 @@ test("forms, empty state, rejected upload, reset, and keyboard dialog work", asy
 });
 
 test("all requested viewports render without horizontal page overflow", async ({ page }) => {
+  const errors: string[] = [];
+  page.on("pageerror", error => errors.push(error.message));
+  page.on("console", message => { if (message.type() === "error") errors.push(message.text()); });
   for (const width of [375, 390, 430, 768, 1024, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     for (const path of ["/", "/product", "/features", "/use-cases", "/integrations", "/pricing", "/login", "/signup", "/demo-request", "/app", "/app/documents", "/app/knowledge", "/app/chat", "/app/workflows", "/app/analytics", "/app/team", "/app/settings"]) {
@@ -99,6 +102,7 @@ test("all requested viewports render without horizontal page overflow", async ({
       expect(overflow, `${path} at ${width}px`).toBeLessThanOrEqual(1);
     }
   }
+  expect(errors).toEqual([]);
 });
 
 test("automated accessibility checks on primary screens", async ({ page }) => {
